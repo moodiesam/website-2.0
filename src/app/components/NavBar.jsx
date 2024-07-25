@@ -14,7 +14,7 @@ const NavBar = () => {
                     <Link href='/projects' className="hover:text-zinc-600">Projects</Link>
                 </li>
                 <li className="my-3 mx-9">
-                    <Link href='/skills' className="hover:text-zinc-600">Skills</Link>
+                    <Link href='/contact' className="hover:text-zinc-600">Contact</Link>
                 </li>
             </ul>
         </nav>

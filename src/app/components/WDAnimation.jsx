@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 import { useSpring, animated } from '@react-spring/web'
 
-const WDAnimation = () => {
+const WDAnimation = ({ text }) => {
 
     const [springs, api] = useSpring(() => (
         {
@@ -35,7 +35,7 @@ const WDAnimation = () => {
       }
     
     return (
-        <animated.p onMouseEnter={handleSpin} style={{...springs}} className="text-3xl pt-10">Web Developer</animated.p>
+        <animated.p onMouseEnter={handleSpin} style={{...springs}} className="text-3xl pt-10">{text}</animated.p>
     )
 }
 
