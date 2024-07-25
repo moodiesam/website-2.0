@@ -1,9 +1,12 @@
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({ 
+  subsets: ["latin"],
+  weight: ['200']
+});
 
 export const metadata = {
   title: "Sam Campbell",
@@ -13,11 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-      <NavBar />
-                <main className="bg-sky-200 min-h-screen">
-                    {children}
-                </main>   
+      <body className={poppins.className}>
+        <NavBar />
+        <main className="bg-zinc-950 text-zinc-50 min-h-screen">
+            {children}
+        </main>   
       </body>
     </html>
   );
