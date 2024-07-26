@@ -14,7 +14,7 @@ export default function About() {
           </div>
           <div className="container flex flex-col justify-center items-center max-w-5xl px-14 mx-auto pt-20 space-y-12 md:space-y-0">
             <h2 className="max-w-md text-3xl text-center pb-8">Skills</h2>
-            <div className="container flex py-8 border border-zink-50 rounded-md">
+            <div className="container flex py-8">
               <div className="skillGroup flex flex-col items-center border border-zinc-600 rounded py-5 ml-5 w-1/3">
                 <h3 className="pb-4">Languages</h3>
                 <ul className="flex flex-col items-center">
