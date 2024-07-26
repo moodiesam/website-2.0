@@ -12,10 +12,10 @@ export default function About() {
               I am excited to craft seamless and user-friendly digital experiences.
             </p>
           </div>
-          <div className="container flex flex-col justify-center items-center px-14 mx-auto pt-20 space-y-12 md:space-y-0">
+          <div className="container flex flex-col justify-center items-center max-w-5xl px-14 mx-auto pt-20 space-y-12 md:space-y-0">
             <h2 className="max-w-md text-3xl text-center pb-8">Skills</h2>
             <div className="container flex py-8 border border-zink-50 rounded-md">
-              <div className="skillGroup flex flex-col items-center w-1/3">
+              <div className="skillGroup flex flex-col items-center border border-zinc-600 rounded py-5 ml-5 w-1/3">
                 <h3 className="pb-4">Languages</h3>
                 <ul className="flex flex-col items-center">
                   <li>HTML</li>
@@ -26,7 +26,7 @@ export default function About() {
                   <li>PUG</li>
                 </ul>
               </div>
-              <div className="skillGroup flex flex-col items-center w-1/3">
+              <div className="skillGroup flex flex-col items-center border border-zinc-600 rounded py-5 mx-5 w-1/3">
                 <h3 className="pb-4">Tools</h3>
                 <ul className="flex flex-col items-center">
                   <li>React</li>
@@ -46,9 +46,9 @@ export default function About() {
                   <li>Prismic</li>
                 </ul>
               </div>
-              <div className="skillGroup flex flex-col items-center w-1/3">
-              <h3 className="pb-4">Concepts</h3>
-              <ul className="flex flex-col items-center">
+              <div className="skillGroup flex flex-col items-center border border-zinc-600 rounded py-5 mr-5 w-1/3">
+                <h3 className="pb-4">Concepts</h3>
+                <ul className="flex flex-col items-center">
                   <li>RESTful APIs</li>
                   <li>JSON Web Tokens</li>
                   <li>Object-Oriented Programming</li>

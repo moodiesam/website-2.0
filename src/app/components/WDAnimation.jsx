@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from "react"
-import { useSpring, animated } from '@react-spring/web'
+import { useSpring, animated, easings } from '@react-spring/web'
 
 const WDAnimation = ({ text }) => {
 
@@ -21,21 +21,29 @@ const WDAnimation = ({ text }) => {
         api.start({
           to: {scale: 1},
         })
-        // api.start({
-        //   to: {rotate: "0deg"},
-        // })
+        api.start({
+          config: {
+            duration: 1500,
+            easing: easings.easeInBounce,
+          },
+          to: {rotate: "0deg"},
+        })
       })
 
-      const handleSpin = () => {
-        api.start({
-            to: {
-                rotate: "0deg"
-            }
-        })
-      }
+      // const handleSpin = () => {
+      //   api.start({
+      //     config: {
+      //       easing: easings.easeInQuad,
+      //       duration: 1000,
+      //     },
+      //     to: {
+      //         rotate: "360deg"
+      //     }
+      //   })
+      // }
     
     return (
-        <animated.p onMouseEnter={handleSpin} style={{...springs}} className="text-3xl pt-10">{text}</animated.p>
+        <animated.p style={{...springs}} className="text-3xl pt-10">{text}</animated.p>
     )
 }
 
