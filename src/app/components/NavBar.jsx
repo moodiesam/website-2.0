@@ -18,6 +18,8 @@ const NavBar = () => {
                 </li>
             </ul>
         </nav>
+
+        // TODO Create Hamburger NavBar for smaller screens
     )
 }
 

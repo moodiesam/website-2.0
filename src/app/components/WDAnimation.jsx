@@ -7,13 +7,13 @@ const WDAnimation = ({ text }) => {
 
     const [springs, api] = useSpring(() => (
         {
-          from: {x: 0, opacity: 0, scale: 0.5, rotate: "180deg"}
+          from: {x: -400, opacity: 0, scale: 0.5, rotate: "180deg"}
         }
       ))
     
       useEffect(() => {
         api.start({
-          to: {x: 400},
+          to: {x: 0},
         })
         api.start({
           to: {opacity: 1},
@@ -41,10 +41,12 @@ const WDAnimation = ({ text }) => {
       //     }
       //   })
       // }
-    
+      
     return (
-        <animated.p style={{...springs}} className="text-3xl pt-10">{text}</animated.p>
-    )
+        <div className="flex container justify-end md:mr-36">
+          <animated.p style={{...springs}} className="text-3xl pt-10">{text}</animated.p>
+        </div>
+        )
 }
 
 export default WDAnimation

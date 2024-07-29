@@ -10,7 +10,7 @@ const Projects = () => {
             <div className="container flex flex-col justify-center px-4 mx-auto pt-16 space-y-12 md:space-y-0 md:flex-row">
                 <FadeInAnimation text="Projects..." classNames="max-w-md text-4xl font-bold text-center md:text-5xl" />
             </div>
-            <div id="projects" className="container flex flex-col justify-center items-center px-4 mx-auto max-w-6xl md:mt-24">
+            <div id="projects" className="container flex flex-col justify-center items-center px-4 mx-auto max-w-6xl mt-8 md:mt-24">
                 <div id="project" className="container flex flex-col justify-center justify-items-center border rounded p-10 mb-10 md:mb-40 border-zinc-600 md:flex-row">
                     <ProjectImage picture={workoutPicture} altText="Screenshot of Workout Application" link="https://sam-workout-app.adaptable.app/" />
                     <div className="px-5 mt-auto xl:ml-10 md:w-1/2">
