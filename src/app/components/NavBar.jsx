@@ -20,7 +20,7 @@ const NavBar = () => {
         <nav className="relative flex items-center justify-end md:justify-center h-16 p-4 bg-zinc-950 text-zinc-50">
             <div className="absolute left-0 my-3 mx-9">
                 <Link onClick={handleLinkClick} href='/' className="hover:text-zinc-600">
-                    <Image src={logo} height={40} />
+                    <Image src={logo} height={40} alt="" />
                 </Link>
             </div>
 
@@ -43,11 +43,11 @@ const NavBar = () => {
             <div className="relative md:hidden">
 
                 {/* Hamburger Icon */}
-                <btn onClick={handleClick} id="menu-btn" className={"block hamburger mx-9 focus:outline-none" + (hamburgerOpen ? ' open' : '')}>
-                    <span class="hamburger-top"></span>
-                    <span class="hamburger-middle"></span>
-                    <span class="hamburger-bottom"></span>
-                </btn>
+                <button onClick={handleClick} id="menu-btn" className={"block hamburger mx-9 focus:outline-none" + (hamburgerOpen ? ' open' : '')}>
+                    <span className="hamburger-top"></span>
+                    <span className="hamburger-middle"></span>
+                    <span className="hamburger-bottom"></span>
+                </button>
 
                 {/* Mobile Menu List */}
                 <div className="md:hidden">

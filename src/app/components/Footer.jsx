@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import CopyEmail from './CopyEmail'
 import linkedin from '../../../public/linkedin.png'
 import github from '../../../public/github.png'
 
@@ -14,7 +15,10 @@ const Footer = () => {
                     <Image src={github} height={30} alt="Github Logo" />
                 </Link>
             </div>
-            <div className="">sampmcampbell@gmail.com</div>
+            <div className="flex space-x-3">
+                <div>sampmcampbell@gmail.com</div>
+                <CopyEmail />
+            </div>
             <div>Copyright Sam Campbell 2024</div>
         </footer>
     )

@@ -19,15 +19,18 @@ export default function About() {
               creativity, and resilience to the tech world. My journey into web development is anything but conventional; it started with a deep-rooted 
               passion for the meticulous craft of whole-animal butchery. This experience honed my attention to detail and problem-solving skills, essential 
               traits that I now leverage to build innovative and efficient web applications.
-              <div className="h-5"></div>
+            </p>
+            <p className="pt-5 indent-5">
               Throughout my career transition, I have immersed myself in mastering both front-end and back-end technologies. I have a proven track record 
               of delivering high-quality projects by employing a meticulous approach and a strong commitment to continuous learning. This adaptability 
               ensures that I stay at the forefront of web development trends, always ready to tackle new challenges with creative solutions.
-              <div className="h-5"></div>
+            </p>
+            <p className="pt-5 indent-5">
               I thrive on transforming complex problems into streamlined, user-centric solutions. My background as a specialty butcher may seem worlds 
               apart from coding, but it has instilled in me a meticulous approach and a deep respect for the art of crafting – whether it's a perfectly 
               cut piece of meat or a seamless user interface. This unique perspective allows me to bring a fresh, holistic approach to web development.
-              <div className="h-5"></div>
+            </p>
+            <p className="pt-5 indent-5">
               I am excited to continue this journey, leveraging my diverse skills and experiences to contribute to cutting-edge projects and collaborate 
               with forward-thinking teams. My goal is to create digital solutions that not only meet but exceed user expectations, driving innovation and 
               efficiency in every line of code.
