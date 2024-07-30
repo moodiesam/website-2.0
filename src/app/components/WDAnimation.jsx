@@ -44,7 +44,7 @@ const WDAnimation = ({ text }) => {
       
     return (
         <div className="flex container justify-end md:mr-36">
-          <animated.p style={{...springs}} className="text-3xl pt-10">{text}</animated.p>
+          <animated.p style={{...springs}} className="text-3xl pt-10 text-lustRed">{text}</animated.p>
         </div>
         )
 }

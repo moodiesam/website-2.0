@@ -2,7 +2,7 @@ import FadeInAnimation from "../components/FadeInAnimation"
 
 export default function About() {
 
-  // !! Previous About Sectino
+  // !! Previous About Section
 
             // <p className="pt-10 indent-5"><span className="text-5xl">W</span>ith a unique background as a specialty whole-animal butcher, I bring precision and a meticulous approach to 
             //   my career as a full stack web developer. My journey from mastering the art of butchery to coding complex 
@@ -37,7 +37,7 @@ export default function About() {
             <h2 className="max-w-md text-3xl text-center pb-8">Skills</h2>
             <div className="container flex flex-col md:flex-row">
               <div className="skillGroup flex flex-col items-center border border-zinc-600 rounded py-5 mb-5 md:ml-5 md:w-1/3">
-                <h3 className="pb-4">Languages</h3>
+                <h3 className="mb-4 border-b border-lustRed">Languages</h3>
                 <ul className="flex flex-col items-center">
                   <li>HTML</li>
                   <li>CSS</li>
@@ -48,7 +48,7 @@ export default function About() {
                 </ul>
               </div>
               <div className="skillGroup flex flex-col items-center border border-zinc-600 rounded py-5 mb-5 md:mx-5 md:w-1/3">
-                <h3 className="pb-4">Tools</h3>
+                <h3 className="mb-4 border-b border-lustRed">Tools</h3>
                 <ul className="flex flex-col items-center">
                   <li>React</li>
                   <li>Redux</li>
@@ -68,7 +68,7 @@ export default function About() {
                 </ul>
               </div>
               <div className="skillGroup flex flex-col items-center border border-zinc-600 rounded py-5 md:mr-5 md:mb-5 md:w-1/3">
-                <h3 className="pb-4">Concepts</h3>
+                <h3 className="mb-4 border-b border-lustRed">Concepts</h3>
                 <ul className="flex flex-col items-center">
                   <li>RESTful APIs</li>
                   <li>JSON Web Tokens</li>
