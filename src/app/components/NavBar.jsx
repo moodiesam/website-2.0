@@ -31,7 +31,7 @@ const NavBar = () => {
                     <Link href='/about' className="hover:text-zinc-600">About</Link>
                 </li>
                 <li className="my-3 mx-9">
-                    <Link href='/projects' className="hover:text-zinc-600">Projects</Link>
+                    <Link href='/projects' className="hover:text-zinc-600">Selected Projects</Link>
                 </li>
                 <li className="my-3 mx-9">
                     <Link href='/contact' className="hover:text-zinc-600">Contact</Link>
@@ -51,7 +51,7 @@ const NavBar = () => {
 
                 {/* Mobile Menu List */}
                 <div className="md:hidden">
-                    <div id="menu" className={"absolute flex-col items-center" + (hamburgerOpen ? ' flex' : ' hidden')}>
+                    <div id="menu" className={"absolute flex-col items-center space-y-1" + (hamburgerOpen ? ' flex' : ' hidden')}>
                         <Link onClick={handleLinkClick} href='/about' className="hover:text-zinc-600">About</Link>
                         <Link onClick={handleLinkClick} href='/projects' className="hover:text-zinc-600">Projects</Link>
                         <Link onClick={handleLinkClick} href='/contact' className="hover:text-zinc-600">Contact</Link>

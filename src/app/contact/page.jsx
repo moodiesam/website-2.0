@@ -27,14 +27,6 @@ const Skills = () => {
                             <CopyEmail />
                         </div>
                     </div>
-                    <div id="linkedIn" className="flex space-x-4 py-8">
-                        <Link href='https://www.linkedin.com/in/campbell-sam/' target="_blank">
-                            <Image src={linkedin} height={50} alt="LinkedIn Logo" />
-                        </Link>
-                        <Link href='https://github.com/moodiesam' target="_blank">
-                            <Image src={github} height={50} alt="Github Logo" />
-                        </Link>
-                    </div>
                 </div>
             </div>
         </section>

@@ -14,7 +14,7 @@ export default function About() {
     return <>
         <section id="aboutPage">
           <div className="container flex flex-col justify-center mx-auto pt-10 space-y-12 md:space-y-0">
-            <FadeInAnimation text="Hi! My name is Sam Campbell" classNames="max-w-md text-4xl font-bold text-center md:text-5xl" />
+            <FadeInAnimation text="Hi, I'm Sam! 👋" classNames="max-w-md text-4xl font-bold text-center md:text-5xl" />
             <p className="pt-10 indent-5"><span className="text-5xl">A</span>s a dedicated full-stack web developer, I bring a unique blend of precision, 
               creativity, and resilience to the tech world. My journey into web development is anything but conventional; it started with a deep-rooted 
               passion for the meticulous craft of whole-animal butchery. This experience honed my attention to detail and problem-solving skills, essential 
