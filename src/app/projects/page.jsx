@@ -2,6 +2,7 @@ import FadeInAnimation from "../components/FadeInAnimation"
 import workoutPicture from "../../../public/workout-app.png"
 import etchPicture from "../../../public/etch-a-sketch.png"
 import battleshipPicture from "../../../public/battleship2.png"
+import wtImage from "../../../public/WTHomepage.png"
 import ProjectImage from "../components/ProjectImage"
 import Image from "next/image"
 import GithubIcon from '../../../public/github.png'
@@ -14,6 +15,19 @@ const Projects = () => {
                 <FadeInAnimation text="Selected Projects..." classNames="max-w-md text-4xl font-bold text-center md:text-5xl" />
             </div>
             <div id="projects" className="container flex flex-col justify-center items-center px-4 mx-auto max-w-6xl mt-8 md:mt-24">
+                <div id="project" className="container flex flex-col justify-center justify-items-center border rounded p-10 mb-10 md:mb-40 border-zinc-600 md:flex-row-reverse">
+                    <ProjectImage picture={wtImage} altText="Screenshot of Workout Application" link="https://www.writerstrust.com/" />
+                    <div className="px-5 mt-6 md:mt-auto xl:ml-10 md:w-1/2">
+                        <h3 className="text-3xl border-b border-lustRed text-right">Writer's Trust of Canada</h3>
+                        <p>Currently modernizing the Writer's Trust of Canada website by implementing NEXT.js and Tailwind to improve performance and design. 
+                            The project also involves updating Prismic to use Slice Machine, enhancing content flexibility and scalability 
+                            while delivering a seamless, modern user experience.
+                        </p>
+                        <div className="flex justify-end">
+                            <h3 className="text-lustRed font-bold text-xl">Current Project</h3>
+                        </div>
+                    </div>
+                </div>
                 <div id="project" className="container flex flex-col justify-center justify-items-center border rounded p-10 mb-10 md:mb-40 border-zinc-600 md:flex-row">
                     <ProjectImage picture={workoutPicture} altText="Screenshot of Workout Application" link="https://sam-workout-app.adaptable.app/" />
                     <div className="px-5 mt-6 md:mt-auto xl:ml-10 md:w-1/2">
