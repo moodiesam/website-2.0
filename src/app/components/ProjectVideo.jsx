@@ -1,5 +1,5 @@
 
-const ProjectVideo = ({ link, height, width }) => {
+const ProjectVideo = ({ link, height, width, title }) => {
     return (
         <iframe
             height={height}
@@ -7,7 +7,7 @@ const ProjectVideo = ({ link, height, width }) => {
             src={link}
             frameborder="0"
             allowfullscreen
-            title="Sam Campbell's introduction video"
+            title={title}
             />
     )
 }

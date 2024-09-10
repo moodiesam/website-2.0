@@ -8,7 +8,11 @@ const Recording = () => {
                 <FadeInAnimation text="Hey BooksOpen!" classNames="max-w-md text-4xl font-bold text-center md:text-5xl" />
             </div>
             <div id="video" className="flex justify-center">
-                <ProjectVideo link="https://youtube.com/embed/pggPvsg-IEA?feature=share" height="600" width="900" />
+                <ProjectVideo 
+                    link="https://www.youtube.com/embed/z4BCNvW5hl0?si=AnVaRR9dOmvbeUey" 
+                    height="630" 
+                    width="1080" 
+                    title="Sam Campbell's introduction video" />
             </div>
         </section>
 
