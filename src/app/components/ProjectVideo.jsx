@@ -5,8 +5,7 @@ const ProjectVideo = ({ link, height, width, title }) => {
             height={height}
             width={width}
             src={link}
-            frameborder="0"
-            allowfullscreen
+            allowFullScreen
             title={title}
             />
     )
