@@ -29,7 +29,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div id="project" className="container flex flex-col justify-center justify-items-center border rounded p-10 mb-10 md:mb-40 border-zinc-600 md:flex-row">
-                    <ProjectImage picture={workoutPicture} altText="Screenshot of Workout Application" link="https://sam-workout-app.adaptable.app/" />
+                    <ProjectImage picture={workoutPicture} altText="Screenshot of Workout Application" link="https://github.com/moodiesam/workout-app" />
                     <div className="px-5 mt-6 md:mt-auto xl:ml-10 md:w-1/2">
                         <h3 className="text-3xl border-b border-lustRed text-right">Workout Tracker App</h3>
                         <p>The Workout Tracker App is a comprehensive web application designed to help users create and manage their
